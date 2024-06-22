@@ -1,0 +1,100 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: arial;
+  color: white;
+}
+
+body {
+  background-color: #1c1c1c;
+}
+
+input {
+  color: #d3d3d3;
+  background-color: #363636;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  width: 70vw;
+  height: 15px;
+}
+
+p {
+  padding: 10px;
+}
+
+header {
+  background-color: #b22222;
+  text-align: center;
+  align-items: center;
+  height: 75px;
+  display: flex;
+  position: relative;
+}
+
+header h1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+form {
+  width: fit-content;
+  border: solid 3px red;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+
+ul {
+  margin-top: 150px;
+  text-align: center;
+  width: 75vw;
+  background-color: #363636;
+  border-radius: 10px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+ul p {
+  text-align: center;
+  background-color: #505050;
+  border-radius: 15px;
+  margin: 10px;
+  font-size: large;
+}
+
+ul p:hover {
+  background-color: #aaaaaa;
+  font-size: 25px;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+}
+
+#enviar {
+  height: auto;
+  width: 150px;
+  cursor: pointer;
+  border: none;
+  margin-left: calc((75vw / 2) - (150px / 2));
+}
+
+#enviar:hover {
+  color: white;
+  background-color: lime;
+}
+
+#check {
+  background-color: #363636;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 5px;
+}
+
+#check [name="Gen"] {
+  width: 25px;
+}
