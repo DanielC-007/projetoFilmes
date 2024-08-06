@@ -1,15 +1,15 @@
+<head>
+    <link rel="stylesheet" href="styles/header.css">
+</head>
 <header>
-    <div id="logo" onclick="window.location='inicial.php'">
-        <img src="../imagens/icon.jpg">
+    <div class="logo" id="logo" onclick="window.location='inicial.php'">
+        <img src="imagens/icon.jpg">
         <h3>Prof Vector </h3>
     </div>
+
     <div class="botoes" onclick="window.location='inicial.php'">
-        Inicio
-    </div>
-    <div class="botoes">
-        Categorias
-    </div>
-    <div class="botoes">
-        Sobre Nós
+        <a href="">Inicio</a>
+        <a href="">Categorias</a>
+        <a href="">Sobre Nós</a>
     </div>
 </header>
