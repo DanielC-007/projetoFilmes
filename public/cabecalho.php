@@ -2,7 +2,7 @@
     <link rel="stylesheet" href="styles/header.css">
 </head>
 <header>
-    <div class="logo" id="logo" onclick="window.location='inicial.php'">
+    <div class="logo" id="logo" onclick="window.location='index.php'">
         <img src="imagens/icon.jpg">
         <h3>Prof Vector </h3>
     </div>
