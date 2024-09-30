@@ -3,7 +3,7 @@
 </head>
 <footer>
     <div id="logoRodape" onclick="window.location='index.php'">
-        <img src="imagens/icon.jpg">
+        <img src="../imagens/icon.jpg">
         <h3>Prof Vector </h3>
     </div>
     <div class="Texto">

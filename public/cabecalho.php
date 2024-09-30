@@ -3,13 +3,13 @@
 </head>
 <header>
     <div class="logo" id="logo" onclick="window.location='index.php'">
-        <img src="imagens/icon.jpg">
+        <img src="../imagens/icon.jpg">
         <h3>Prof Vector </h3>
     </div>
 
     <div class="botoes" onclick="window.location='inicial.php'">
-        <a href="">Inicio</a>
+        <a href="../index.php">Inicio</a>
         <a href="">Categorias</a>
-        <a href="">Sobre Nós</a>
+        <a href="../php/sobrenos.php">Sobre Nós</a>
     </div>
-</header>
+</header> 

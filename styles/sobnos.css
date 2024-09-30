@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header a {
+    color: white;
+}
+
+.conteudo {
+    display: flex;
+    padding: 15px;
+}
+
+.conteudo img {
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.conteudo ul {
+    list-style-type: none;
+    font-size: large;
+}
+
+.conteudo div {
+    background-color: #eee;
+    border-radius: 15px;
+    padding: 15px;
+    margin-left: 25px;
+    width: 25vw;
+}
+
+footer {
+    position: fixed;
+    width: 97vw;
+    margin-top: 125px;
+}

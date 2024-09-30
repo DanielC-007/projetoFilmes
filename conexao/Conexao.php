@@ -3,6 +3,7 @@ $servidor = "localhost";
 $usuario = "root";
 $senha = "";
 $banco = "projetoFilmes";
+
 $conecta = mysqli_connect($servidor, $usuario, $senha, $banco);
 
 if(mysqli_connect_errno()){

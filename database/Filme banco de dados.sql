@@ -1,7 +1,5 @@
-/*drop database projetoFilmes;*/
-create database projetoFilmes;
+create database if NOT EXISTS projetoFilmes;
 use projetoFilmes;
-
 
 create table filme(
 codigo_Filme int NOT NULL AUTO_INCREMENT,
